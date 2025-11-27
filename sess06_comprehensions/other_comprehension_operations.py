@@ -23,7 +23,7 @@ print(f"Students and their exam scores: {student_scores}")
 passed_students = {name: score for name, score in student_scores.items() if score > 55}
 print(f"Students that passed and their exam scores: {passed_students}")
 
-# # TODO: Get and display the dictionary of students that failed
+# TODO: Get and display the dictionary of students that failed
 failed_students = {name: score for name, score in student_scores.items() if score < 55}
 print(f"Students that failed and their exam scores: {failed_students}")
 
