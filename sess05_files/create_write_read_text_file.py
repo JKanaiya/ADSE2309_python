@@ -16,7 +16,6 @@ def create_file(path, content):
         f.write(content)
     print(f"File created and contents writen successfully.")
 
-
 # get and display the current working directory
 current_dir = os.getcwd()
 print(f"The current working directory is: {current_dir}")
@@ -39,3 +38,18 @@ create_file(file_path, content)
 
 
 # TODO: Write code to read the contents of the "hello.txt" file and display them
+
+def read_file(path):
+    """
+    Reads the contents of the file at the given path and returns the content.
+
+    :param path: The path of the file to read.
+    :return: The content of the file as a string.
+    """
+    with open(path, 'r', encoding='utf-8') as f:
+        content = f.read()
+        print(content)  
+
+# Call / invoke the read_file() function to read and display the text in the file
+read_file(file_path)
+

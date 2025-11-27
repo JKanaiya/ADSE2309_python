@@ -28,4 +28,4 @@ with open(file_path, "wb") as f:
     pickle.dump(person1, f)
 
 # Notify the user about successfully pickling their details
-print(f"The 'person1' object has been successfully pcikled in {file_path}")
+print(f"The 'person1' object has been successfully pickled in {file_path}")
