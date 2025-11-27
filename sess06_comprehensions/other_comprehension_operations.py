@@ -49,10 +49,10 @@ sreading before you reach the end, Word remembers where you left off – even on
 # Remove all the manual line breaks (\n or newline characters) and replace them with a space (" ")
 cleaned_paragraph = paragraph.replace("\n", " ")
 
-senteces = cleaned_paragraph.split(" ")
+sentences = cleaned_paragraph.split(" ")
 
 # Display each sentence on a new line
-for sentence in senteces:
+for sentence in sentences:
     # strip the lading whitespaces and ensure sentence is not empty
     cleaned_sentence = sentence.strip()
     if cleaned_sentence:
